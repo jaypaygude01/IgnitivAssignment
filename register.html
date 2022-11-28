@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/1c74e082c5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+        body{
+            background-color: lightskyblue;
+        }
+      .form {
+        background-color: burlywood;
+        width: 500px;
+        height: 300px;
+        margin: 200px 500px;
+        border-radius: 50px;
+        position: relative;
+        border: 1px solid black;
+      }
+      .innerelements {
+        margin: 10px;
+        position: relative;
+        top: 50px;
+        left: 100px;
+      }
+      #btn {
+        font-size: 15px;
+        position: relative;
+        left: 200px;
+        border-radius: 10px;
+        padding: 10px 30px;
+      }
+      #btn:hover {
+        background-color: lightyellow;
+        color: green;
+      }
+      .demo i{
+        position: relative;
+        top: 52px;
+        left: 135px;
+        z-index: 100;
+      }
+     .demo input{
+        padding-left: 25px;
+      }
+      .form i:hover{
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h1 class="innerelements">Login Here</h1>
+      <div class="demo">
+          <label for="username" class="innerelements">Enter Username</label>
+          <i class="fa-solid fa-user"></i>
+          <input type="text" name="username" class="innerelements" placeholder="enter username"/>
+      </div>
+      <div class="demo">
+          <label for="password" class="innerelements">Enter Password</label>
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" name="password" class="innerelements " placeholder="enter your password"/><br />
+      </div>
+      <input type="submit" class="innerelements" id="btn" value="Login" />
+    </div>
+  </body>
+</html>

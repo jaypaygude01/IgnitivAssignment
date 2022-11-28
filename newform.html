@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200801/pngtree-purple-abstract-background-fluid-gradient-with-wave-forms-image_375467.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .container{
+            border: 2px solid black;
+            width: 800px;
+            height: 500px;
+            margin-top: 100px;
+            margin-left: 300px;
+        }
+        .myh1{
+            text-align: center;
+
+        }
+        .form{
+            font-size: 25px;
+            margin-top: 50px;
+            margin-left: 80px;
+        
+        }
+        .form input{
+            margin: 10px;
+        }
+
+        #myemail:valid{
+            border:3px solid green;
+            outline: none;
+        }
+
+        #myemail:invalid{
+            border:3px solid red;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="myh1">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="form">
+            <form action="" method="post">
+                Name <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name"><br>
+            
+                Company <input type="text"><br>
+                Email <input type="email" placeholder="Enter your Email Id" pattern="/^([A-Za-z0-9])+\@(([A-Za-z0-9])+\.)+([A-Za-z]{2,4})+$/" id="myemail"><br>
+                Phone <input type="number"min="2" max="2" placeholder="Code"> <input type="number" placeholder="enter your mobile no."><br>
+                
+                Subject <select name="" id="">
+                    <option value="">Subject1</option>
+                    <option value="">Subject2</option>
+                    <option value="">Subject3</option>
+                    <option value="">Subject4</option>
+                    <option value="">Subject5</option>
+                    
+                </select><br>
+                Are you an existing customer ?<br>
+                <input type="radio" name="myradio">Yes
+                <input type="radio" name="myradio">No <br>
+
+                <input type="submit" value="Register"name="" id="">
+                <input type="reset">
+
+
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
