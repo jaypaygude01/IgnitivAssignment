@@ -1,0 +1,352 @@
+.container{
+   background-image: url("https://www.ignitiv.com/wp-content/uploads/2021/06/Digital-Transformation.jpg");
+   background-position:center center;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+}
+
+body{
+   padding: 0;
+   margin: 0;
+}
+#myh1{
+   font-size: 60px;
+   color: white;
+   position: absolute;
+   top: 400px;
+   left: 200px;
+}
+
+#btn{
+   color: white;
+   text-decoration: none;
+   border: 1px solid white;
+   position: absolute;
+   top: 600px;
+   left: 600px;
+   font-size: 20px;
+   padding: 15px 50px;
+   border-radius: 5px;
+}
+#btn:hover{
+   background-color: white;
+   color: black;
+}
+
+.logo{
+   color: white;
+   font-size: 50px;
+   font-weight: bold;
+   /* position: relative; */
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.myul{
+   display: flex;
+   position: absolute;
+   top: 35px;
+   right: 20px;
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.myul li{
+   list-style: none;
+}
+
+.myul li a{
+   text-decoration: none;
+   color: white;
+   padding:25px;
+}
+.myul li a:hover{
+   text-decoration: underline;
+}
+
+
+.container1{
+   text-align: center;
+   height: 400px;
+}
+
+#c1para{
+   padding: 20px 250px;
+   font-size: 20px;
+}
+
+.content{
+   position: relative;
+   top: 60px;
+}
+
+#myh3{
+   font-weight: bolder;
+}
+
+.container2{
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;   
+   height: 500px;
+   color: white;
+}
+.cardsbutton{
+   color: white;
+   text-decoration: none;
+   border: 2px solid white;
+   font-size: 20px;
+   padding: 15px 50px;
+   border-radius: 5px;
+   position: relative;
+   top: 20px;
+   left: 20px;
+}
+.cardsbutton:hover{
+   background-color: white;
+   color: black;
+}
+
+.cards{
+   width: 33.33%;
+    padding: 100px 100px;
+}
+
+.darkpurple{
+   background-color: rgb(95, 11, 232);
+}
+
+.lightblack{
+   background-color: rgba(72, 69, 69, 0.952);
+}
+
+.lightblue{
+   background-color: rgb(29, 78, 255);
+}
+
+
+
+.container3{
+   width: 100%;
+   display: flex;
+}
+
+.img{
+   width: 50%;
+}
+
+.text{
+   width: 50%;
+   text-align: center;
+   padding: 100px 0px;
+}
+
+.whitepaper{
+   text-decoration: none;
+   color: black;
+   border: 1px solid black;
+   padding: 15px 40px;
+   position: relative;
+   top: 20px;
+}
+
+.whitepaper:hover{
+   color: white;
+   background-color: black;
+}
+
+
+.container4{
+   width: 100%;
+   height: 350px;
+   background-color: rgb(229, 38, 38);
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+}
+
+.lower{
+   position: relative;
+   top: 100px;
+   height: 150px;
+}
+
+.superscript{
+   font-size: 15px;
+}
+
+.lower2{
+   border-left: 2px dotted white;
+   border-right: 2px dotted white;
+   padding-left: 70px;
+   padding-right: 70px; ;
+
+}
+
+.container5{
+   background-image:url("https://www.ignitiv.com/wp-content/uploads/2020/08/Footer.jpg");
+   width: 100%;
+   height: 600px;
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.subcontainer1{
+   display: flex;
+   justify-content: space-evenly;
+   width:100%;
+   height: 500px;
+   border-bottom: 1px solid white ;
+}
+.subcontainer2{
+   text-align: center;
+}
+.subcontainer2 h4{
+   margin-top: 40px;
+}
+
+#link{
+   text-decoration: none;
+}
+
+.footer{
+   position: relative;
+   top: 70px;
+}
+
+.anchor{
+   color: white;
+   text-decoration: none;
+   line-height: 2;
+}
+
+.anchor:hover{
+   color: rgb(60, 60, 60);
+}
+
+.myul1 li{
+   line-height: 3;
+   list-style: none;
+}
+.myul1 li a{
+   text-decoration: none;
+   color: white;
+}
+
+.lh{
+   line-height:2;
+}
+
+.arrow{
+   color: #06f;
+}
+
+#redbaloon{
+   width: 600px;
+   position: relative;
+   left: -250px;
+   top: 150px;
+
+}
+
+#yellowbaloon{
+   width: 600px;
+   left: 1100px;
+   top: 150px;
+}  
+
+
+
+/* .myul ul{
+   display: flex;
+}
+.hdemo{
+   position: absolute;
+   
+   z-index: 1;
+   left: 830px;
+   background-color: black;
+   width: 200px;
+   padding: 30px;
+   line-height: 2;
+   display: none;
+}
+
+.hdemo li{
+   list-style: none;
+}
+
+.hdemo li a{
+   text-decoration: none;
+   color: white;
+}
+
+.hdemo ul li:hover{
+   display: block;
+} */
+
+.myul{
+   position: absolute;
+   right: 50px;
+}
+
+.pd{
+padding: 10px 20px;
+}
+.dropbtn{
+  
+
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+
+}
+
+.dropdown1 .dropdown2 .dropdown3 .dropdown4 .dropdown5 .dropdown6{
+   position: relative;
+ display: inline-block;
+} 
+
+.dropdown1 a, .dropdown2 a, .dropdown3 a, .dropdown4 a, .dropdown5 a, .dropdown6 a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  
+} 
+
+.dropbtn{
+   display: flex;
+   justify-content: space-around;
+}
+.dropdown-content{
+   display: none;
+   position: absolute;
+   background-color: black;
+   z-index: 1;
+   padding: 40px;
+}
+
+.dropdown-content a{
+   color: white;
+   text-decoration: none;
+   line-height: 2;
+   display: block;
+}
+
+.dropdown a:hover{
+   display: block;
+   text-decoration:underline;
+}
+
+
+
+
+.dropdown1:hover .dropdown-content {display: block;}
+.dropdown2:hover .dropdown-content {display: block;}
+.dropdown3:hover .dropdown-content {display: block;}
+.dropdown4:hover .dropdown-content {display: block;}
+.dropdown5:hover .dropdown-content {display: block;}
+.dropdown6:hover .dropdown-content {display: block;}
